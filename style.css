@@ -1,8 +1,4 @@
-.grid{
-    background-image: url("galaxy.png");
-    background-size: contain;
-    /* background-repeat: no-repeat; */
-}
+
 .results{
     text-align: center;
 }
@@ -13,6 +9,8 @@
     display: flex;
     flex-wrap: wrap ;
     margin: auto;
+    background-image: url("galaxy.png");
+    background-size: cover;
 }
 .grid div{
     width: 20px;
@@ -28,7 +26,7 @@
 }
 .shooter{
     /* background-color: black; */
-    background-image: url("space-ship.png");
+    background-image: url("spaceship.png");
     background-size: contain;
     background-repeat: no-repeat;
 
