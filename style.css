@@ -1,9 +1,13 @@
+.results{
+    text-align: center;
+}
 .grid{
     width: 300px;
     height: 300px;
     border: solid 1px black;
     display: flex;
     flex-wrap: wrap ;
+    margin: auto;
 }
 .grid div{
     width: 20px;
@@ -11,15 +15,29 @@
     box-sizing: border-box;
 }
 .invader{
-    background-color: purple;
+    /* background-color: purple; */
     border-radius: 10px;
+    background-image: url("invaders.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .shooter{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url("space-ship.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
 }
 .laser{
-    background-color: orange;
+    /* background-color: orange; */
+    background-image: url("laser.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .boom{
-    background-color: red;
+    /* background-color: red; */
+    background-image: url("explosion.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
